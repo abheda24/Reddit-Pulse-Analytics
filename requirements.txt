@@ -1,0 +1,12 @@
+streamlit
+praw
+pandas
+numpy
+plotly
+textblob
+wordcloud
+transformers
+yfinance
+networkx
+python-dotenv
+pytest

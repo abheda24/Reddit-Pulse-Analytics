@@ -1,0 +1,75 @@
+/* Dark theme overrides */
+.main {
+    background-color: #0E1117;
+    color: #FAFAFA;
+}
+
+.metric-container {
+    background-color: #262730;
+    border: 1px solid #3B3B3B;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.tab-content {
+    background-color: #262730;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Chart containers */
+.chart-container {
+    background-color: #262730;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* Custom tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background-color: #262730;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: transparent;
+    color: #FAFAFA;
+    border: 1px solid #3B3B3B;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: #ff4b4b;
+    border-color: #ff4b4b;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #262730;
+}
+
+/* Input fields */
+.stTextInput input, .stSelectbox select {
+    background-color: #1E1E1E;
+    color: #FAFAFA;
+    border: 1px solid #3B3B3B;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #e03e3e;
+}
