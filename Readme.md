@@ -8,37 +8,45 @@ A modern, real-time dashboard for analyzing Reddit sentiment, trends, and engage
 
 ## 🚀 Quick Start
 
-Clone the repository
-bash
-git clone https://github.com/abheda24/Reddit-Pulse-Analytics.git
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/reddit_sentiment_analysis.git
 cd reddit_sentiment_analysis
+```
 
-Create virtual environment
-bash
+2. **Create virtual environment**
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+```
 
-Install dependencies
-bash
+3. **Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-Set up environment variables
-bash
+4. **Set up environment variables**
+```bash
 cp .env.example .env
 # Edit .env with your Reddit API credentials
+```
 
-Run the dashboard
-bash
+5. **Run the dashboard**
+```bash
 streamlit run app/dashboard.py
+```
 
 ## 🔧 Configuration
 
-Create a Reddit application at https://www.reddit.com/prefs/apps
-Add credentials to .env: env
+1. Create a Reddit application at https://www.reddit.com/prefs/apps
+2. Add credentials to `.env`:
+```env
 REDDIT_CLIENT_ID=your_client_id
 REDDIT_CLIENT_SECRET=your_client_secret
 REDDIT_USER_AGENT=RedditPulseAnalytics/1.0
+```
+
 
 ## 🌟 Technical Features & Data Science Components
 
