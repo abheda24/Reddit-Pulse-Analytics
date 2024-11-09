@@ -107,7 +107,7 @@ REDDIT_USER_AGENT=RedditPulseAnalytics/1.0
   - Memory optimization
   - Query optimization
 
-[Rest of your README remains the same until Technology Stack]
+
 
 ## 🛠️ Technology Stack & Skills Demonstrated
 
